@@ -40,4 +40,4 @@
 
 欢迎留下一次具体体验，例如某张双栏表格哪里读乱了，或换个对话后是否回到了正确的那一句。公开论文给出链接和页码即可，未公开稿件可用自写短句重现。[提交阅读反馈](https://github.com/hh992458149-gif/english-paper-reading/issues/new?template=reading-feedback.yml)
 
-当前版本公开试用，暂未附开源许可证。
+这个 Skill、配套说明和阅读页模板采用 MIT 许可。分发原版或改编版时，请保留版权声明和许可文本。[MIT 许可证](LICENSE)

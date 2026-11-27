@@ -1,6 +1,7 @@
 ---
 name: english-paper-reading
 description: 用中文逐句精读英文科研论文，解释选词、公式和图表，制作离线双语 HTML 与可批注的 Word，并按原 PDF 页码和下一句原文跨对话续读。适合读者要读懂一篇已选文献或把方法带回自己课题时使用。
+license: MIT
 ---
 
 # 英文文献对照精读
