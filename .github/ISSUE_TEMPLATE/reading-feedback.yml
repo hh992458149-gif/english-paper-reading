@@ -1,0 +1,22 @@
+name: 阅读体验反馈
+description: 记录一次实际试读、发现的问题或希望改进的环节。
+body:
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 你用到了哪个环节？
+      options:
+        - 安装或点名调用
+        - 逐句精读、选词或图表
+        - HTML 或 Word 对照稿
+        - 保存断点、跨对话续读
+        - 篇末三问或其他
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: 你做了什么，结果怎样？
+      description: 可以附上你输入的一句话、预期效果和实际体验。公开论文可附链接与页码，未公开材料请用自写例句代替。
+    validations:
+      required: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "英文文献对照精读"
+  short_description: "逐句读懂英文论文，制作中英对照阅读稿，记住下次从哪一句继续。"
+  default_prompt: "用 $english-paper-reading 带我读这篇英文论文，从我选中的内容开始，依次讲原文、中文翻译和关键词与原理。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>软木切面为什么像蜂巢？ · 英文文献对照精读</title>
+  <style>
+    :root { color-scheme: light; --paper: #faf8f2; --ink: #232b25; --muted: #515e52;
+      --rule: #c7cabe; --accent: #285840; --reader-size: 20px; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink);
+      font: 16px/1.65 "Source Sans 3", system-ui, sans-serif; }
+    main { width: min(900px, 100%); margin: auto; padding: 4rem 5% 3rem; }
+    h1, h2, .pair p { font-family: "STIX Two Text", Georgia, "Songti SC", "Noto Serif CJK SC", serif; }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.2; margin: .35rem 0 .9rem; }
+    h2 { font-size: 1.4rem; line-height: 1.45; margin: 0 0 1rem; }
+    header p, footer { color: var(--muted); }
+    header p { margin: .45rem 0; }
+    a { color: var(--accent); text-underline-offset: .2em; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    nav, .controls, fieldset, .links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+    nav { border-block: 1px solid var(--rule); margin: 1.6rem 0 .85rem; padding: .8rem 0; }
+    fieldset { border: 0; margin: 0; padding: 0; gap: .6rem; }
+    input { accent-color: var(--accent); }
+    button, label { cursor: pointer; font: inherit; }
+    button { padding: .15rem .6rem; border: 1px solid var(--rule);
+      border-radius: .3rem; color: var(--accent); background: transparent; }
+    button:disabled { cursor: default; opacity: .5; }
+    .links, #status, .source, .bookmark { font-size: .9rem; }
+    #status { min-height: 1.5em; margin: .3rem 0; color: var(--accent); }
+    article { border-top: 1px solid var(--rule); padding: 1.5rem 0; scroll-margin-top: 1rem; }
+    .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 2rem; }
+    .pair > div { min-width: 0; }
+    .pair small { color: var(--muted); }
+    .pair p { margin: .2rem 0 .6rem; overflow-wrap: anywhere; font-size: var(--reader-size); line-height: 1.65; }
+    .note { max-width: 65ch; }
+    body[data-view="en"] .zh, body[data-view="zh"] .en, body[data-view="en"] .note { display: none; }
+    body[data-view="en"] .pair, body[data-view="zh"] .pair { grid-template-columns: 1fr; }
+    footer { border-top: 1px solid var(--rule); padding-top: 1rem; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    @media (max-width: 620px) { main { padding-top: 2rem; } .pair { grid-template-columns: 1fr; gap: .4rem; } }
+    @media print { body { background: white; } main { width: auto; padding: 0; }
+      nav, .links, .bookmark, #status, noscript { display: none; } article { break-inside: avoid; } }
+  </style>
+</head>
+<body data-view="both" data-paper-key="hooke-micrographia-1667-obs18">
+  <main>
+    <header>
+      <p lang="en">Robert Hooke · <i>Micrographia</i> · 1667</p>
+      <h1>软木切面为什么像蜂巢？</h1>
+      <p>第 XVIII 则，书内第 113 页。同一长句的两处节选，一处给出比喻，一处说明边界。</p>
+    </header>
+    <nav aria-label="阅读工具">
+      <fieldset>
+        <legend class="sr-only">显示语言</legend>
+        <label><input type="radio" name="view" value="both" checked> 双语</label>
+        <label><input type="radio" name="view" value="zh"> 仅中文</label>
+        <label><input type="radio" name="view" value="en"> 仅英文</label>
+      </fieldset>
+      <div class="controls" role="group" aria-label="字号和打印">
+        <button type="button" id="smaller" aria-label="减小字号">字−</button>
+        <button type="button" id="larger" aria-label="增大字号">字＋</button>
+        <button type="button" id="print">打印</button>
+      </div>
+    </nav>
+    <div class="links">
+      <a href="#comparison">蜂巢的比喻</a>
+      <a href="#shape">示例精读断点</a>
+      <button type="button" id="return" disabled>回到我的书签</button>
+    </div>
+    <p id="status" role="status" aria-live="polite"></p>
+    <noscript><p>可直接阅读下方双语文字。切换视图和保存书签需要启用 JavaScript。</p></noscript>
+    <article id="comparison">
+      <h2>蜂巢的比喻</h2>
+      <div class="pair">
+        <div class="en" lang="en"><small>Excerpt</small><p>much like a Honey-comb</p></div>
+        <div class="zh"><small>中文</small><p>很像蜂巢。</p></div>
+      </div>
+      <p class="note">胡克削下一片很薄的软木，放在黑色载物板上照亮。他用蜂巢帮助读者想象切面上许多彼此相邻的空腔。</p>
+      <button class="bookmark" type="button" data-bookmark="comparison">保存此处书签</button>
+    </article>
+    <article id="shape">
+      <h2>孔隙是否规整</h2>
+      <div class="pair">
+        <div class="en" lang="en"><small>Excerpt</small><p>but that the pores of it were not regular</p></div>
+        <div class="zh"><small>中文</small><p>只是其中的孔隙并不规整。</p></div>
+      </div>
+      <p class="note"><i lang="en">Regular</i> 描写孔隙的几何形状。这一处限定了蜂巢比喻的适用范围。若要比较孔的大小或形状分布，还需要测量数据。</p>
+      <button class="bookmark" type="button" data-bookmark="shape">保存此处书签</button>
+    </article>
+    <footer class="source">
+      <p>试读停在原句中间。下次打开原书第 113 页，从同一句的后半段 <q lang="en">yet it was not unlike a Honey-comb</q> 接着读。手动书签单独保存在当前浏览器。</p>
+      <a href="https://www.microscopemuseum.eu/books/Robert_Hooke_1667_Micrographia_or_Some_physiological_descriptions_of_minute_bodies_made_by_magnifying_glasses.pdf">核对原书扫描</a>
+    </footer>
+  </main>
+  <script>
+    const statusLine = document.getElementById('status');
+    const back = document.getElementById('return');
+    const bookKey = 'english-paper-reading:bookmark:' + document.body.dataset.paperKey;
+    const marks = Array.from(document.querySelectorAll('[data-bookmark]'));
+    const ids = new Set(marks.map(button => button.dataset.bookmark));
+    let bookmark = null;
+    try {
+      const saved = localStorage.getItem(bookKey);
+      if (ids.has(saved)) bookmark = saved;
+    } catch { /* The reader is usable with browser storage disabled. */ }
+    back.disabled = !bookmark;
+    for (const button of marks) {
+      button.addEventListener('click', () => {
+        bookmark = button.dataset.bookmark;
+        back.disabled = false;
+        const title = document.getElementById(bookmark).querySelector('h2').textContent;
+        try {
+          localStorage.setItem(bookKey, bookmark);
+          statusLine.textContent = '书签已保存到「' + title + '」。';
+        } catch {
+          statusLine.textContent = '本次打开时可回到「' + title + '」。当前浏览器无法持久保存书签。';
+        }
+      });
+    }
+    back.addEventListener('click', () => {
+      if (!bookmark) return;
+      if (location.hash === '#' + bookmark) {
+        document.getElementById(bookmark).scrollIntoView();
+      } else {
+        location.hash = bookmark;
+      }
+    });
+    document.querySelectorAll('input[name="view"]').forEach(input => {
+      input.addEventListener('change', () => { if (input.checked) document.body.dataset.view = input.value; });
+    });
+    let size = 20;
+    const smaller = document.getElementById('smaller');
+    const larger = document.getElementById('larger');
+    function changeSize(delta) {
+      size = Math.max(16, Math.min(28, size + delta));
+      document.documentElement.style.setProperty('--reader-size', size + 'px');
+      smaller.disabled = size <= 16;
+      larger.disabled = size >= 28;
+      statusLine.textContent = '正文字号 ' + size + ' px。';
+    }
+    smaller.addEventListener('click', () => changeSize(-2));
+    larger.addEventListener('click', () => changeSize(2));
+    document.getElementById('print').addEventListener('click', () => window.print());
+  </script>
+</body>
+</html>
